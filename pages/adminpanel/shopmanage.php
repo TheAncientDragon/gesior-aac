@@ -260,7 +260,7 @@ if ($serviceId == 3) {
 																				<div class="BigButton" style="background-image:url(' . $layout_name . '/images/global/buttons/sbutton_red.gif)" >
 																					<div onMouseOver="MouseOverBigButton(this);" onMouseOut="MouseOutBigButton(this);" ><div class="BigButtonOver" style="background-image:url(' . $layout_name . '/images/global/buttons/sbutton_red_over.gif);" ></div>
 																						<input type="hidden" class="delMountId" name="delMountId" value="' . $g_mount['id'] . '">
-																						<input class="ButtonText delOutfit" type="image" name="Delete" alt="Delete" src="' . $layout_name . '/images/global/buttons/_sbutton_delete.gif" >
+																						<input class="ButtonText delMount" type="image" name="Delete" alt="Delete" src="' . $layout_name . '/images/global/buttons/_sbutton_delete.gif" >
 																					</div>
 																				</div>
 																			</form>
